@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"version": "1.0",
+	"name": "Hello World!",
+	"description": "Demo extension file",
+	
+	
+	"icons":
+	{
+		"16": "Pic/HW.png", 
+		"48": "Pic/HW.png",
+		"128": "Pic/HW.png"
+	},
+	"permissions": [
+        "http://127.0.0.1:5000/*"
+    ],
+	"browser_action":
+	{
+		"default_icon": "Pic/HW.png",
+		"default_popup": "popup.html"
+	}
+}
