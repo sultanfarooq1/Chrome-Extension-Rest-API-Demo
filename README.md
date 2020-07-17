@@ -1,8 +1,8 @@
 # Chrome-Extension-Rest-API-Demo
 
-api.py is the Flask API file 
+Flask.zip consists of api.py which is the REST API which reverses the text. 
 
-manifest.json and pop.html are the chrome ectension creation files.
+ChromeExtension.zip consists of manifest.json and popup.html which are used to create chrome extension.
 
 The Extension upon clicking asks to enter the text to send to the API server which upon recieving reverses it and displays it on the command prompt where the server is running.
 
