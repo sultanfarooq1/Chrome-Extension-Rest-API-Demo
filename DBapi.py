@@ -29,7 +29,7 @@ def home():
     results.append(user)
     #cursor
     cur = con.cursor()
-    cur.execute("insert into information (info) values (%s)",(results))
+    cur.execute("insert into information (info) values (%s)",(results,))
     con.commit()
     cur.close()
     return user[::-1]
